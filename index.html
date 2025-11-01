@@ -161,7 +161,7 @@ document.getElementById('mobile-btn')?.addEventListener('click',()=>document.get
   </div>
 </section>
 
-<!-- Hero Section Template (Domains 2–7) -->
+<!-- Hero Section - Domain 1 -->
 <section id="hero" class="py-12">
   <div class="max-w-5xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
     
@@ -194,17 +194,15 @@ document.getElementById('mobile-btn')?.addEventListener('click',()=>document.get
       </div>
     </div>
 
-    <!-- Right column: single larger full-height image -->
+    <!-- Right column: single larger full-height image (no overflow) -->
     <div class="fade-in">
-      <div class="iframe-card">
-        <div class="iframe-wrap h-[400px] md:h-[550px] overflow-hidden rounded-lg shadow-lg">
-          <img 
-            src="https://github.com/betseogalaxi/m/blob/main/000018-ios.jpg?raw=true" 
-            alt="Hero Image" 
-            class="w-full h-full object-cover" 
-            loading="lazy"
-          />
-        </div>
+      <div class="h-[400px] md:h-[550px] relative">
+        <img 
+          src="https://github.com/betseogalaxi/m/blob/main/00008-bonus-al-25.jpg?raw=true" 
+          alt="Hero Image" 
+          class="w-full h-full object-contain" 
+          loading="lazy"
+        />
       </div>
     </div>
 
