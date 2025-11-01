@@ -164,6 +164,7 @@ document.getElementById('mobile-btn')?.addEventListener('click',()=>document.get
 <!-- HERO -->
 <section id="hero" class="py-12">
   <div class="container grid md:grid-cols-2 gap-8 items-center">
+    
     <!-- Left column -->
     <div class="space-y-6 fade-in stagger-1">
       <h1 class="apa-h1">🎯 BetPuan Güncel Giriş — Güvenilir Bahis, Hızlı Ödemeler</h1>
@@ -175,11 +176,17 @@ document.getElementById('mobile-btn')?.addEventListener('click',()=>document.get
       <div class="grid grid-cols-2 gap-3">
         <div class="p-3 bg-[#17222b] rounded-lg flex items-center gap-3">
           <i class="fa-solid fa-clock text-[var(--highlight)]"></i>
-          <div><div class="text-sm text-gray-300">Hızlı Ödeme</div><div class="font-semibold text-white">Dakikalar İçinde</div></div>
+          <div>
+            <div class="text-sm text-gray-300">Hızlı Ödeme</div>
+            <div class="font-semibold text-white">Dakikalar İçinde</div>
+          </div>
         </div>
         <div class="p-3 bg-[#17222b] rounded-lg flex items-center gap-3">
           <i class="fa-solid fa-shield-halved text-[var(--highlight)]"></i>
-          <div><div class="text-sm text-gray-300">Güvenlik</div><div class="font-semibold text-white">SSL & KYC</div></div>
+          <div>
+            <div class="text-sm text-gray-300">Güvenlik</div>
+            <div class="font-semibold text-white">SSL & KYC</div>
+          </div>
         </div>
       </div>
 
@@ -192,20 +199,23 @@ document.getElementById('mobile-btn')?.addEventListener('click',()=>document.get
         </a>
       </div>
     </div>
-  
- <!-- Right column: single full-height image -->
-<div class="fade-in">
-  <div class="img-card">
-    <div class="img-wrap h-full">
-      <img 
-        src="https://github.com/betseogalaxi/m/blob/main/000042-member-ad.jpg?raw=true" 
-        alt="Member Ad" 
-        class="w-full h-full object-cover rounded-lg" 
-        loading="lazy"
-      />
+
+    <!-- Right column: single framed image -->
+    <div class="fade-in">
+      <div class="img-card">
+        <div class="img-wrap h-[400px] md:h-[500px] overflow-hidden rounded-lg shadow-lg">
+          <img 
+            src="https://github.com/betseogalaxi/m/blob/main/000042-member-ad.jpg?raw=true" 
+            alt="Member Ad" 
+            class="w-full h-full object-cover" 
+            loading="lazy"
+          />
+        </div>
+      </div>
     </div>
+
   </div>
-</div>
+</section>
 
 <!-- Popular Oyunlar -->
 <section id="oyunlar" class="py-8">
