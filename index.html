@@ -12,6 +12,9 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
   <style>
     :root{
       --topbar:#93CA53;       /* slightly different green tone */
@@ -117,7 +120,7 @@
   <div class="container flex items-center justify-between px-4 py-4">
     <div class="flex items-center gap-3">
       <i class="fa-solid fa-crown text-yellow-400"></i>
-      <div class="text-xl font-bold">BetPuan <span class="text-sm text-gray-300">Güncel</span></div>
+      <div class="text-xl font-bold">BetPuan Güncel</span></div>
     </div>
 
     <nav class="hidden md:flex gap-6 text-gray-100 font-semibold">
@@ -210,33 +213,135 @@ document.getElementById('mobile-btn')?.addEventListener('click',()=>document.get
 </section>
 
 <!-- Popular Oyunlar -->
-<section id="oyunlar" class="py-8">
-  <div class="container">
-    <h2 class="apa-h2 fade-in stagger-1"><i class="fa-solid fa-fire"></i> Popüler Oyunlar</h2>
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-4">
-      <div class="bg-[#132b3f] rounded-lg p-4 text-center fade-in stagger-2">
-        <img src="https://github.com/betseogalaxi/m/blob/main/game1.jpg?raw=true" alt="Canlı Rulet" class="w-full h-28 object-cover rounded-md mb-3" loading="lazy" />
-        <div class="font-semibold">Canlı Rulet</div>
-        <div class="text-xs text-gray-300">Yüksek oranlı</div>
+<section id="oyunlar" class="py-10 bg-[#293043]">
+  <div class="max-w-7xl mx-auto px-6">
+    <h3 class="text-3xl font-bold mb-6 text-center text-[#F3FFB5]">🎮 Popüler Oyunlar</h3>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+
+      <!-- 1 -->
+      <div class="bg-[#343B4D] rounded-lg p-4 flex flex-col items-center transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:ring-2 hover:ring-[#F3FFB5]">
+        <img src="https://github.com/betseogalaxi/m/blob/main/-000031-fener-vs.jpg?raw=true" alt="Fenerbahçe Maçı" class="w-full h-32 object-cover rounded-md mb-3" loading="lazy" />
+        <div class="font-semibold text-[#B8EE72]">Fenerbahçe Bahisleri</div>
+        <div class="text-xs text-gray-300 mb-3">Canlı maç oranları</div>
+        <a href="#" class="mt-auto px-3 py-1.5 bg-[#B8EE72] text-[#293043] font-semibold text-xs rounded-md animate-bounce shadow-lg hover:bg-[#F3FFB5] transition">
+          🎯 Hemen Oyna
+        </a>
       </div>
-      <div class="bg-[#132b3f] rounded-lg p-4 text-center fade-in stagger-3">
-        <img src="https://github.com/betseogalaxi/m/blob/main/game2.jpg?raw=true" alt="Slot" class="w-full h-28 object-cover rounded-md mb-3" loading="lazy" />
-        <div class="font-semibold">Slotlar</div>
-        <div class="text-xs text-gray-300">Büyük jackpot</div>
+
+      <!-- 2 -->
+      <div class="bg-[#343B4D] rounded-lg p-4 flex flex-col items-center transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:ring-2 hover:ring-[#F3FFB5]">
+        <img src="https://github.com/betseogalaxi/m/blob/main/000010-500-al.jpg?raw=true" alt="500₺ Bonus" class="w-full h-32 object-cover rounded-md mb-3" loading="lazy" />
+        <div class="font-semibold text-[#B8EE72]">500₺ Hoşgeldin Bonusu</div>
+        <div class="text-xs text-gray-300 mb-3">Yüksek karşılama fırsatı</div>
+        <a href="#" class="mt-auto px-3 py-1.5 bg-[#B8EE72] text-[#293043] font-semibold text-xs rounded-md animate-bounce shadow-lg hover:bg-[#F3FFB5] transition">
+          🎯 Hemen Oyna
+        </a>
       </div>
-      <div class="bg-[#132b3f] rounded-lg p-4 text-center fade-in stagger-1">
-        <img src="https://github.com/betseogalaxi/m/blob/main/game3.jpg?raw=true" alt="Canlı Casino" class="w-full h-28 object-cover rounded-md mb-3" loading="lazy" />
-        <div class="font-semibold">Canlı Casino</div>
-        <div class="text-xs text-gray-300">Gerçek krupiyer</div>
+
+      <!-- 3 -->
+      <div class="bg-[#343B4D] rounded-lg p-4 flex flex-col items-center transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:ring-2 hover:ring-[#F3FFB5]">
+        <img src="https://github.com/betseogalaxi/m/blob/main/000011-tebrik.jpg?raw=true" alt="Kazanç Tebriği" class="w-full h-32 object-cover rounded-md mb-3" loading="lazy" />
+        <div class="font-semibold text-[#B8EE72]">Gerçek Kazananlar</div>
+        <div class="text-xs text-gray-300 mb-3">Tebrik mesajları</div>
+        <a href="#" class="mt-auto px-3 py-1.5 bg-[#B8EE72] text-[#293043] font-semibold text-xs rounded-md animate-bounce shadow-lg hover:bg-[#F3FFB5] transition">
+          🎯 Hemen Oyna
+        </a>
       </div>
-      <div class="bg-[#132b3f] rounded-lg p-4 text-center fade-in stagger-2">
-        <img src="https://github.com/betseogalaxi/m/blob/main/game4.jpg?raw=true" alt="Spor Bahisleri" class="w-full h-28 object-cover rounded-md mb-3" loading="lazy" />
-        <div class="font-semibold">Spor Bahisleri</div>
-        <div class="text-xs text-gray-300">Canlı oranlar</div>
+
+      <!-- 4 -->
+      <div class="bg-[#343B4D] rounded-lg p-4 flex flex-col items-center transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:ring-2 hover:ring-[#F3FFB5]">
+        <img src="https://github.com/betseogalaxi/m/blob/main/000012-tekbik.jpg?raw=true" alt="Teknik Bahisler" class="w-full h-32 object-cover rounded-md mb-3" loading="lazy" />
+        <div class="font-semibold text-[#B8EE72]">Teknik Analiz Bahis</div>
+        <div class="text-xs text-gray-300 mb-3">Yüksek oran stratejisi</div>
+        <a href="#" class="mt-auto px-3 py-1.5 bg-[#B8EE72] text-[#293043] font-semibold text-xs rounded-md animate-bounce shadow-lg hover:bg-[#F3FFB5] transition">
+          🎯 Hemen Oyna
+        </a>
       </div>
+
+      <!-- 5 -->
+      <div class="bg-[#343B4D] rounded-lg p-4 flex flex-col items-center transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:ring-2 hover:ring-[#F3FFB5]">
+        <img src="https://github.com/betseogalaxi/m/blob/main/000013-ios.jpg?raw=true" alt="iOS Yükleme" class="w-full h-32 object-cover rounded-md mb-3" loading="lazy" />
+        <div class="font-semibold text-[#B8EE72]">iOS Uygulamamız</div>
+        <div class="text-xs text-gray-300 mb-3">App Store destekli</div>
+        <a href="#" class="mt-auto px-3 py-1.5 bg-[#B8EE72] text-[#293043] font-semibold text-xs rounded-md animate-bounce shadow-lg hover:bg-[#F3FFB5] transition">
+          🎯 Hemen Oyna
+        </a>
+      </div>
+
+      <!-- 6 -->
+      <div class="bg-[#343B4D] rounded-lg p-4 flex flex-col items-center transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:ring-2 hover:ring-[#F3FFB5]">
+        <img src="https://github.com/betseogalaxi/m/blob/main/000014-free-spin.jpg?raw=true" alt="Free Spin Kampanyası" class="w-full h-32 object-cover rounded-md mb-3" loading="lazy" />
+        <div class="font-semibold text-[#B8EE72]">Free Spin Hediyesi</div>
+        <div class="text-xs text-gray-300 mb-3">Çevrimsiz fırsatlar</div>
+        <a href="#" class="mt-auto px-3 py-1.5 bg-[#B8EE72] text-[#293043] font-semibold text-xs rounded-md animate-bounce shadow-lg hover:bg-[#F3FFB5] transition">
+          🎯 Hemen Oyna
+        </a>
+      </div>
+
+      <!-- 7 -->
+      <div class="bg-[#343B4D] rounded-lg p-4 flex flex-col items-center transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:ring-2 hover:ring-[#F3FFB5]">
+        <img src="https://github.com/betseogalaxi/m/blob/main/000015-flamming-hot-oyun.jpg?raw=true" alt="Flaming Hot Oyun" class="w-full h-32 object-cover rounded-md mb-3" loading="lazy" />
+        <div class="font-semibold text-[#B8EE72]">Flaming Hot Slot</div>
+        <div class="text-xs text-gray-300 mb-3">Jackpot çılgınlığı</div>
+        <a href="#" class="mt-auto px-3 py-1.5 bg-[#B8EE72] text-[#293043] font-semibold text-xs rounded-md animate-bounce shadow-lg hover:bg-[#F3FFB5] transition">
+          🎯 Hemen Oyna
+        </a>
+      </div>
+
+      <!-- 8 -->
+      <div class="bg-[#343B4D] rounded-lg p-4 flex flex-col items-center transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:ring-2 hover:ring-[#F3FFB5]">
+        <img src="https://github.com/betseogalaxi/m/blob/main/000016-kayip-iade-10.jpg?raw=true" alt="Kayıp İade" class="w-full h-32 object-cover rounded-md mb-3" loading="lazy" />
+        <div class="font-semibold text-[#B8EE72]">%10 Kayıp İade</div>
+        <div class="text-xs text-gray-300 mb-3">Her gün geçerli</div>
+        <a href="#" class="mt-auto px-3 py-1.5 bg-[#B8EE72] text-[#293043] font-semibold text-xs rounded-md animate-bounce shadow-lg hover:bg-[#F3FFB5] transition">
+          🎯 Hemen Oyna
+        </a>
+      </div>
+
+      <!-- 9 -->
+      <div class="bg-[#343B4D] rounded-lg p-4 flex flex-col items-center transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:ring-2 hover:ring-[#F3FFB5]">
+        <img src="https://github.com/betseogalaxi/m/blob/main/000017x10bin.jpg?raw=true" alt="10.000x Ödül" class="w-full h-32 object-cover rounded-md mb-3" loading="lazy" />
+        <div class="font-semibold text-[#B8EE72]">10.000x Slot Ödülü</div>
+        <div class="text-xs text-gray-300 mb-3">Devasa kazanma şansı</div>
+        <a href="#" class="mt-auto px-3 py-1.5 bg-[#B8EE72] text-[#293043] font-semibold text-xs rounded-md animate-bounce shadow-lg hover:bg-[#F3FFB5] transition">
+          🎯 Hemen Oyna
+        </a>
+      </div>
+
+      <!-- 10 -->
+      <div class="bg-[#343B4D] rounded-lg p-4 flex flex-col items-center transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:ring-2 hover:ring-[#F3FFB5]">
+        <img src="https://github.com/betseogalaxi/m/blob/main/000018-ios.jpg?raw=true" alt="iOS Özel Bahisler" class="w-full h-32 object-cover rounded-md mb-3" loading="lazy" />
+        <div class="font-semibold text-[#B8EE72]">iOS Özel Oyun</div>
+        <div class="text-xs text-gray-300 mb-3">Mobil kullanıcıya özel</div>
+        <a href="#" class="mt-auto px-3 py-1.5 bg-[#B8EE72] text-[#293043] font-semibold text-xs rounded-md animate-bounce shadow-lg hover:bg-[#F3FFB5] transition">
+          🎯 Hemen Oyna
+        </a>
+      </div>
+
+      <!-- 11 -->
+      <div class="bg-[#343B4D] rounded-lg p-4 flex flex-col items-center transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:ring-2 hover:ring-[#F3FFB5]">
+        <img src="https://github.com/betseogalaxi/m/blob/main/000022-cat-games.jpg?raw=true" alt="Kedi Slot" class="w-full h-32 object-cover rounded-md mb-3" loading="lazy" />
+        <div class="font-semibold text-[#B8EE72]">Cat Slots</div>
+        <div class="text-xs text-gray-300 mb-3">Sevimli jackpot</div>
+        <a href="#" class="mt-auto px-3 py-1.5 bg-[#B8EE72] text-[#293043] font-semibold text-xs rounded-md animate-bounce shadow-lg hover:bg-[#F3FFB5] transition">
+          🎯 Hemen Oyna
+        </a>
+      </div>
+
+      <!-- 12 -->
+      <div class="bg-[#343B4D] rounded-lg p-4 flex flex-col items-center transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:ring-2 hover:ring-[#F3FFB5]">
+        <img src="https://github.com/betseogalaxi/m/blob/main/000012-heros.jpg?raw=true" alt="Heroes Slot" class="w-full h-32 object-cover rounded-md mb-3" loading="lazy" />
+        <div class="font-semibold text-[#B8EE72]">Heroes Slot</div>
+        <div class="text-xs text-gray-300 mb-3">Büyük jackpot fırsatları</div>
+        <a href="#" class="mt-auto px-3 py-1.5 bg-[#B8EE72] text-[#293043] font-semibold text-xs rounded-md animate-bounce shadow-lg hover:bg-[#F3FFB5] transition">
+          🎯 Hemen Oyna
+        </a>
+      </div>
+
     </div>
   </div>
 </section>
+
 
 <!-- Bonuslar (start) -->
 <section id="bonuslar" class="py-8 bg-[#223344]">
@@ -283,7 +388,7 @@ document.getElementById('mobile-btn')?.addEventListener('click',()=>document.get
   </div>
 </section>
 
-<!-- Neden Bizi Seçmelisin -->
+<!-- Neden Bizi Seçmelisiniz -->
 <section id="neden" class="py-12">
   <div class="container text-center">
     <h2 class="apa-h2 fade-in stagger-1"><i class="fa-solid fa-thumbs-up"></i> Neden Bizi Seçmelisiniz?</h2>
@@ -293,57 +398,128 @@ document.getElementById('mobile-btn')?.addEventListener('click',()=>document.get
     </p>
 
     <div class="grid md:grid-cols-4 gap-6 text-left">
-      <div class="bg-[#122027] p-6 rounded-lg fade-in"><i class="fa-solid fa-lock text-[var(--highlight)] text-3xl mb-3"></i><h3 class="apa-h3">SSL Güvenliği</h3><p class="text-sm text-gray-300">Verileriniz %100 SSL ile korunur.</p></div>
-      <div class="bg-[#122027] p-6 rounded-lg fade-in"><i class="fa-solid fa-mobile-screen text-[var(--highlight)] text-3xl mb-3"></i><h3 class="apa-h3">Mobil Bahis Deneyimi</h3><p class="text-sm text-gray-300">iOS & Android uyumlu platform.</p></div>
-      <div class="bg-[#122027] p-6 rounded-lg fade-in"><i class="fa-solid fa-wallet text-[var(--highlight)] text-3xl mb-3"></i><h3 class="apa-h3">Hızlı Ödeme İşlemleri</h3><p class="text-sm text-gray-300">MEFETE, Kripto, Havale gibi seçenekler.</p></div>
-      <div class="bg-[#122027] p-6 rounded-lg fade-in"><i class="fa-solid fa-headset text-[var(--highlight)] text-3xl mb-3"></i><h3 class="apa-h3">7/24 Canlı Destek</h3><p class="text-sm text-gray-300">Profesyonel Türkçe destek.</p></div>
+      <div class="bg-[#122027] p-6 rounded-lg fade-in">
+        <i class="fa-solid fa-lock text-[var(--highlight)] text-3xl mb-3"></i>
+        <h3 class="apa-h3">SSL Güvenliği</h3>
+        <p class="text-sm text-gray-300">Verileriniz %100 SSL ile korunur.</p>
+      </div>
+
+      <div class="bg-[#122027] p-6 rounded-lg fade-in">
+        <i class="fa-solid fa-mobile-screen-button text-[var(--highlight)] text-3xl mb-3"></i>
+        <h3 class="apa-h3">Mobil Bahis Deneyimi</h3>
+        <p class="text-sm text-gray-300">iOS & Android uyumlu platform.</p>
+      </div>
+
+      <div class="bg-[#122027] p-6 rounded-lg fade-in">
+        <i class="fa-solid fa-wallet text-[var(--highlight)] text-3xl mb-3"></i>
+        <h3 class="apa-h3">Hızlı Ödeme İşlemleri</h3>
+        <p class="text-sm text-gray-300">MEFETE, Kripto, Havale gibi seçenekler.</p>
+      </div>
+
+      <div class="bg-[#122027] p-6 rounded-lg fade-in">
+        <i class="fa-solid fa-headset text-[var(--highlight)] text-3xl mb-3"></i>
+        <h3 class="apa-h3">7/24 Canlı Destek</h3>
+        <p class="text-sm text-gray-300">Profesyonel Türkçe destek.</p>
+      </div>
     </div>
   </div>
 </section>
+
 
 <!-- Ödeme Yöntemleri -->
 <section id="odeme" class="py-10 bg-[#192d41]">
   <div class="container">
     <h2 class="apa-h2 text-center fade-in stagger-1"><i class="fa-solid fa-credit-card"></i> Ödeme Yöntemleri</h2>
     <div class="grid grid-cols-2 md:grid-cols-6 gap-6 mt-6 text-center">
-      <div class="fade-in stagger-2"><i class="fa-solid fa-qrcode text-4xl text-[var(--highlight)]"></i><p class="mt-2 text-xs text-gray-300">Parola</p></div>
-      <div class="fade-in stagger-3"><i class="fa-solid fa-money-bill-transfer text-4xl text-[var(--highlight)]"></i><p class="mt-2 text-xs text-gray-300">MEFETE</p></div>
-      <div class="fade-in stagger-1"><i class="fa-brands fa-bitcoin text-4xl text-[var(--highlight)]"></i><p class="mt-2 text-xs text-gray-300">Kripto</p></div>
-      <div class="fade-in stagger-2"><i class="fa-solid fa-building-columns text-4xl text-[var(--highlight)]"></i><p class="mt-2 text-xs text-gray-300">Havale</p></div>
-      <div class="fade-in stagger-3"><i class="fa-solid fa-money-bill-trend-up text-4xl text-[var(--highlight)]"></i><p class="mt-2 text-xs text-gray-300">Nakit</p></div>
-      <div class="fade-in stagger-1"><i class="fa-solid fa-envelope-open-dollar text-4xl text-[var(--highlight)]"></i><p class="mt-2 text-xs text-gray-300">Papel</p></div>
+      <div class="fade-in stagger-2">
+        <i class="fa-solid fa-qrcode text-4xl text-[var(--highlight)]"></i>
+        <p class="mt-2 text-xs text-gray-300">Parola</p>
+      </div>
+      <div class="fade-in stagger-3">
+        <i class="fa-solid fa-money-bill-wave text-4xl text-[var(--highlight)]"></i>
+        <p class="mt-2 text-xs text-gray-300">MEFETE</p>
+      </div>
+      <div class="fade-in stagger-1">
+        <i class="fa-brands fa-bitcoin text-4xl text-[var(--highlight)]"></i>
+        <p class="mt-2 text-xs text-gray-300">Kripto</p>
+      </div>
+      <div class="fade-in stagger-2">
+        <i class="fa-solid fa-building-columns text-4xl text-[var(--highlight)]"></i>
+        <p class="mt-2 text-xs text-gray-300">Havale</p>
+      </div>
+      <div class="fade-in stagger-3">
+        <i class="fa-solid fa-coins text-4xl text-[var(--highlight)]"></i>
+        <p class="mt-2 text-xs text-gray-300">Nakit</p>
+      </div>
+      <div class="fade-in stagger-1">
+        <i class="fa-solid fa-sack-dollar text-4xl text-[var(--highlight)]"></i>
+        <p class="mt-2 text-xs text-gray-300">Papel</p>
+      </div>
     </div>
   </div>
 </section>
 
+
 <!-- SSS -->
 <section id="sss" class="py-12">
-  <div class="container">
-    <h2 class="apa-h2 text-center fade-in"><i class="fa-solid fa-circle-question"></i> Sıkça Sorulan Sorular (SSS)</h2>
-    <div class="mt-6 space-y-4">
-      <details class="p-4 bg-[#132735] rounded-lg fade-in">
-        <summary class="font-semibold cursor-pointer">1. BetPuan güvenilir mi?</summary>
-        <p class="text-sm text-gray-300 mt-2">Evet, BetPuan lisanslı ve SSL sertifikalı olarak hizmet verir.</p>
-      </details>
-      <details class="p-4 bg-[#132735] rounded-lg fade-in">
-        <summary class="font-semibold cursor-pointer">2. Para çekme işlemleri ne kadar sürer?</summary>
-        <p class="text-sm text-gray-300 mt-2">MEFETE ve kripto işlemleri genelde 5-10 dakika sürer.</p>
-      </details>
-      <details class="p-4 bg-[#132735] rounded-lg fade-in">
-        <summary class="font-semibold cursor-pointer">3. Deneme bonusu var mı?</summary>
-        <p class="text-sm text-gray-300 mt-2">Evet, yeni üyelerimiz için deneme bonusu sunuyoruz.</p>
-      </details>
-      <details class="p-4 bg-[#132735] rounded-lg fade-in">
-        <summary class="font-semibold cursor-pointer">4. Mobil uygulamanız var mı?</summary>
-        <p class="text-sm text-gray-300 mt-2">Evet, hem Android hem iOS sürümü mevcuttur.</p>
-      </details>
-      <details class="p-4 bg-[#132735] rounded-lg fade-in">
-        <summary class="font-semibold cursor-pointer">5. Canlı destek nasıl çalışıyor?</summary>
-        <p class="text-sm text-gray-300 mt-2">7/24 Türkçe canlı destek hattımız vardır.</p>
-      </details>
+  <div class="max-w-6xl mx-auto px-6">
+    <h3 class="text-2xl font-bold mb-4">❓ Sıkça Sorulan Sorular</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+      <div class="p-4 bg-[#132735] rounded-lg">
+        <h4 class="font-semibold mb-2">1. BetPuan güvenilir mi?</h4>
+        <p class="text-sm text-gray-300">Evet, BetPuan lisanslı ve SSL sertifikalı olarak hizmet verir.</p>
+      </div>
+
+      <div class="p-4 bg-[#132735] rounded-lg">
+        <h4 class="font-semibold mb-2">2. Para çekme işlemleri ne kadar sürer?</h4>
+        <p class="text-sm text-gray-300">MEFETE ve kripto işlemleri genelde 5-10 dakika sürer.</p>
+      </div>
+
+      <div class="p-4 bg-[#132735] rounded-lg">
+        <h4 class="font-semibold mb-2">3. Deneme bonusu var mı?</h4>
+        <p class="text-sm text-gray-300">Evet, yeni üyelerimiz için deneme bonusu sunuyoruz.</p>
+      </div>
+
+      <div class="p-4 bg-[#132735] rounded-lg">
+        <h4 class="font-semibold mb-2">4. Mobil uygulamanız var mı?</h4>
+        <p class="text-sm text-gray-300">Evet, hem Android hem iOS sürümü mevcuttur.</p>
+      </div>
+
+      <div class="p-4 bg-[#132735] rounded-lg">
+        <h4 class="font-semibold mb-2">5. Canlı destek nasıl çalışıyor?</h4>
+        <p class="text-sm text-gray-300">7/24 Türkçe canlı destek hattımız vardır.</p>
+      </div>
+
+      <div class="p-4 bg-[#132735] rounded-lg">
+        <h4 class="font-semibold mb-2">6. Bonus çevrim şartı nedir?</h4>
+        <p class="text-sm text-gray-300">Bonuslar oyun türüne göre farklı çevrim şartlarına sahiptir.</p>
+      </div>
+
+      <div class="p-4 bg-[#132735] rounded-lg">
+        <h4 class="font-semibold mb-2">7. Hangi ödeme yöntemleri mevcut?</h4>
+        <p class="text-sm text-gray-300">MEFETE, Kripto, Havale, Papara ile hızlı ödeme alabilirsiniz.</p>
+      </div>
+
+      <div class="p-4 bg-[#132735] rounded-lg">
+        <h4 class="font-semibold mb-2">8. Minimum çekim limiti ne kadar?</h4>
+        <p class="text-sm text-gray-300">Minimum çekim limiti 100₺'dir.</p>
+      </div>
+
+      <div class="p-4 bg-[#132735] rounded-lg">
+        <h4 class="font-semibold mb-2">9. Hangi para birimleri destekleniyor?</h4>
+        <p class="text-sm text-gray-300">TL, USD ve EURO desteklenmektedir.</p>
+      </div>
+
+      <div class="p-4 bg-[#132735] rounded-lg">
+        <h4 class="font-semibold mb-2">10. Hesabım kapatılırsa ne olur?</h4>
+        <p class="text-sm text-gray-300">Destek ekibi ile iletişime geçip çözüm talep edebilirsiniz.</p>
+      </div>
+
     </div>
   </div>
 </section>
+
 
 <!-- Domain 2 Footer with Main Logo, Larger App Logos & Floating CTA -->
 <footer class="bg-[var(--footerbg)] py-10 px-6 text-white text-center relative">
@@ -384,23 +560,6 @@ document.getElementById('mobile-btn')?.addEventListener('click',()=>document.get
   <!-- Copyright -->
   <p class="text-sm text-gray-300">© 2025 BetPuanGuncelGiris.com. Tüm Hakları Saklıdır.</p>
 </footer>
-
-<!-- Scripts for Fade-in on Scroll -->
-<script>
-  const elements = document.querySelectorAll('.fade-in');
-  const observer = new IntersectionObserver(entries=>{
-    entries.forEach(entry=>{
-      if(entry.isIntersecting){
-        entry.target.style.opacity=1;
-        entry.target.style.transform='translateY(0)';
-      }
-    });
-  },{threshold:0.2});
-  elements.forEach(el=>observer.observe(el));
-</script>
-
-</body>
-</html>
 
 <!-- Scripts for Fade-in on Scroll -->
 <script>
