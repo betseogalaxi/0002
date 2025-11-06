@@ -74,7 +74,7 @@
   </div>
 </nav>
 
-<!-- Marquee -->
+<!-- Marquee with scrolling effect -->
 <section class="py-4 overflow-hidden bg-[#293043]">
   <div class="max-w-6xl mx-auto px-6 relative">
     <div class="marquee whitespace-nowrap text-white font-semibold text-sm flex gap-12">
@@ -89,6 +89,24 @@
     </div>
   </div>
 </section>
+
+<!-- Add this CSS to make the marquee scroll -->
+<style>
+  .animate-marquee {
+    display: flex;
+    animation: marquee 15s linear infinite;
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+</style>
+
   
 <!-- Hero Section -->
 <section class="relative py-20 px-6 text-center">
